@@ -1,3 +1,7 @@
+/* Table of contents */
+/* 1. Fonts */
+/* 2. General styles */
+/* 3. Container */
 /* FONTS */
 @font-face {
   font-family: "Rubik";
@@ -60,6 +64,27 @@
   url("../webfonts/roboto-v20-latin-500italic.woff") format("woff"); 
 }
 
+/* GENERAL STYLES */
+
+html {
+  box-sizing: border-box;
+  height: 100% ;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 body{
   font-family: "Rubik", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 18px;
+  color: #434343;
+}
+
+/* CONTAINER */
+.container{
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
