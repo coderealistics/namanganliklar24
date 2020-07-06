@@ -102,6 +102,9 @@ body{
   border-top: 4px solid #295093;
   background-color: #F6f6f9;
 }
+.site-header_exchange-rates{
+  margin-right: 17px;
+}
 .site-header__top {
   font-size: 16px;
   line-height: 19px;
@@ -114,6 +117,12 @@ body{
   flex-wrap: wrap;
   /* align-items: center; */
   margin-left: auto;
+}
+.site-header__search-button{
+  margin-right: 22px;
+}
+.site-header__language-toggler{
+  margin-right: 24px;
 }
 /* LOGO */
 .logo{
@@ -130,7 +139,6 @@ body{
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  margin-left: 17px;
   list-style-type: none;
   color: #7A7A7A;
 }
@@ -145,14 +153,12 @@ body{
   padding: 8px;
   border: none;
   border-radius: 5px;
-  margin-right: 22px;
   background-color: #fff;
 }
 /* LANGUAGE-TOGGLER */
 .language-toggler{
   padding: 10px;
   border: none;
-  margin-right: 24px;
   border-radius: 5px;
   background-color: #fff;
 }
