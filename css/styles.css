@@ -3,10 +3,11 @@
 /* 2. GENERAL SYLES */
 /* 3. CONTAINER */
 /* 4. SITE-HEADER */
-/* 5. EXCHANGE-RATES */
-/* 6. SEARCH-BUTTON */
-/* 7. LANGUAGE-TOGGLER */
-/* 8. TELEGRAM-SUB */
+/* 5. LOGO  */
+/* 6. EXCHANGE-RATES */
+/* 7. SEARCH-BUTTON */
+/* 8. LANGUAGE-TOGGLER */
+/* 9. TELEGRAM-SUB */
 
 /* FONTS */
 @font-face {
@@ -114,6 +115,14 @@ body{
   /* align-items: center; */
   margin-left: auto;
 }
+/* LOGO */
+.logo{
+  display: flex;
+  padding: 4px 8px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+  background-color: #fff;
+}
 /* EXCHANGE-RATES */
 .exchange-rates{
   display: flex;
@@ -136,12 +145,14 @@ body{
   padding: 8px;
   border: none;
   border-radius: 5px;
+  margin-right: 22px;
   background-color: #fff;
 }
 /* LANGUAGE-TOGGLER */
 .language-toggler{
   padding: 10px;
   border: none;
+  margin-right: 24px;
   border-radius: 5px;
   background-color: #fff;
 }
@@ -156,4 +167,7 @@ body{
   background-color: #1E96C8;
   border-radius: 5px;
   text-decoration: none;
+}
+.telegram-sub__text{
+  font-weight: 500;
 }
