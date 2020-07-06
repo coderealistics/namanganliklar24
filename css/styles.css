@@ -1,7 +1,13 @@
 /* Table of contents */
-/* 1. Fonts */
-/* 2. General styles */
-/* 3. Container */
+/* 1. FONTS */
+/* 2. GENERAL SYLES */
+/* 3. CONTAINER */
+/* 4. SITE-HEADER */
+/* 5. EXCHANGE-RATES */
+/* 6. SEARCH-BUTTON */
+/* 7. LANGUAGE-TOGGLER */
+/* 8. TELEGRAM-SUB */
+
 /* FONTS */
 @font-face {
   font-family: "Rubik";
@@ -16,8 +22,8 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../webfonts/rubik-v9-latin-500.woff2") format("woff2"), 
-  url("../webfonts/rubik-v9-latin-500.woff") format("woff");
+  src: url("../webfonts/Rubik-Medium.woff2") format("woff2"), 
+  url("../webfonts/Rubik-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "Rubik";
@@ -87,4 +93,67 @@ body{
   max-width: 1240px;
   padding: 0 20px;
   margin: 0 auto;
+}
+/* SITE-HEADER  */
+.site-header {
+  padding-bottom: 23px;
+  padding-top: 40px;
+  border-top: 4px solid #295093;
+  background-color: #F6f6f9;
+}
+.site-header__top {
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.site-header__actions{
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  margin-left: auto;
+}
+/* EXCHANGE-RATES */
+.exchange-rates{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-left: 17px;
+  list-style-type: none;
+  color: #7A7A7A;
+}
+.exchange-rates__icon{
+  color:#285193;
+}
+.exchange-rates__item:not(:last-child){
+  margin-right: 26px;
+}
+/* SEARCH-BUTTON */
+.search-button{
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+/* LANGUAGE-TOGGLER */
+.language-toggler{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+/* 8. TELEGRAM-SUB */
+.telegram-sub{
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  padding: 10px;
+  color: #FFF;
+  background-image: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+  background-color: #1E96C8;
+  border-radius: 5px;
+  text-decoration: none;
 }
