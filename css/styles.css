@@ -359,6 +359,7 @@ img{
     display: none;
   }
   .sitenav{
+    display: none;
     margin-bottom: 0;
     transition: transform 0.3s ease;
     transform: translateX(120%);

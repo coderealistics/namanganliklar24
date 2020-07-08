@@ -17,4 +17,9 @@ ready(function() {
         elSidenav.classList.toggle('sitenav--open');
     });
 
+    elSidenav.addEventListener('animationend', function(){
+        console.log('tugadi');
+        
+    })
+
 });
